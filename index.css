@@ -2,10 +2,10 @@ body {
     display: flex; /* Flexbox 사용 */
     flex-direction: column; /* 자식 요소들을 세로로 배치 */
     justify-content: center; /* 수평 가운데 정렬 */
-    align-items: center; 수직 가운데 정렬
-    /* height: 100vh; 화면 전체 높이만큼 body 요소의 높이 설정 */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 100vh; /* 화면 전체 높이만큼 body 요소의 높이 설정 */
     margin: 0; /* 바깥 여백 제거 */
-  }
+}
 
 h1 {
     font-size: 26px;
@@ -13,7 +13,7 @@ h1 {
 
 #displayImage{
     max-width: 80%; /* 부모 요소의 크기에 맞게 이미지 너비 조절 */
-    height: auto; /* 이미지 높이 자동 조정 */  
+    max-height: 80%; /* 이미지 높이 자동 조정 */  
 }
 .counter {
     margin-top: 10px;
